@@ -1,4 +1,9 @@
-const numbs = [1, 2, 3, 4, 5];
-const result = numbs.slice(2, 4);
+const numbers = [1, 3, 5, 6, 2, 4, 5];
 
-console.log(result);
+const slice = numbers.slice(2, 6);
+// console.log(slice);
+// console.log(numbers);
+
+const parts = numbers.splice(2, 2, 99, 888);
+console.log(parts);
+console.log(numbers);
