@@ -90,3 +90,36 @@
 // console.log(Array.isArray(number));
 
 // Task-5
+// const numbers = [87, 54, 12, 63, 41, 7, 51];
+// const reversed = numbers.reverse();
+// console.log(reversed);
+
+// Task-6
+// const fruits = ["mango", "jackfruit", "guava", "papaya", "banana"];
+// const sorted = fruits.sort();
+// console.log(sorted);
+
+// Task-7
+// const ascendingNumber = [3, 5, 7, 1, 2, 9, 4, 6, 8, 0];
+// const sorted = ascendingNumber.sort();
+// console.log(sorted);
+
+// Task-8
+// const numbers = [87, 54, 1, 2, 9, 12, 63, 41, 7, 51, 3, 5, 7, 4, 6, 8, 0, 12];
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > 10) {
+//     console.log(numbers[i]);
+//   }
+// }
+
+// Task-9
+// const numbers = [87, 54, 1, 2, 9, 12, 63, 41, 7, 51, 3, 5, 7, 4, 6, 8, 0];
+
+// let total = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+// total = total + numbers[i]
+// }
+
+// console.log("Total result ", total)
+
