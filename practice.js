@@ -167,7 +167,7 @@
 // console.log(largest);
 // console.log(smallest);
 
-// eta otirikto advance. 
+// eta otirikto advance.
 // Task-4
 // const arr = [1, [2, 3], [4, [5, 6]]];
 // const arr = [1, [2, 3]];
@@ -191,3 +191,9 @@
 // const result1 = arr.flat();
 
 // console.log(result1.flat());
+
+// Task-5
+// const position = [1, 2, 3, 4, 5];
+// position.shift();
+// position.push(1);
+// console.log(position);
