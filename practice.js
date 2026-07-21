@@ -1,24 +1,24 @@
 // Task-1 & Task-2
-const arr = ["ami", "tumi", "she"];
+// const arr = ["ami", "tumi", "she"];
 // console.log(arr);
 // console.log(arr.length);
 
 // Task-3
-const arr0 = arr[0];
-const arr2 = arr[2];
+// const arr0 = arr[0];
+// const arr2 = arr[2];
 // console.log(arr0);
 // console.log(arr2);
 
 // Task-4
-arr[1] = "tui";
+// arr[1] = "tui";
 // console.log(arr);
 
 // Task-5
-arr.push("tora sobai");
+// arr.push("tora sobai");
 // console.log(arr);
 
 // Task-6
-const firstOut = arr.pop();
+// const firstOut = arr.pop();
 // console.log(arr);
 // console.log(firstOut);
 
@@ -36,8 +36,8 @@ const firstOut = arr.pop();
 // console.log(removeValue);
 
 // Task-9
-const players = ["jamir", "khamir", "namir", "damir"];
-const hasItem = players.includes("khamir");
+// const players = ["jamir", "khamir", "namir", "damir"];
+// const hasItem = players.includes("khamir");
 // console.log(hasItem);
 // console.log(Array.isArray(players));
 
@@ -55,11 +55,38 @@ const hasItem = players.includes("khamir");
 // }
 
 // Task-12
-const numbers = [12, 45, 145, 25, 78, 89, 94];
-let i = 0;
-while (i < numbers.length) {
-  console.log("index value", i);
-  const item = numbers[i];
-  console.log(item);
-  i++;
-}
+// const numbers = [12, 45, 145, 25, 78, 89, 94];
+// let i = 0;
+// while (i < numbers.length) {
+//   console.log("index value", i);
+//   const item = numbers[i];
+//   console.log(item);
+//   i++;
+// }
+
+// --------------------------------------------------
+
+// Task-1
+// const fruits1 = ["mango"];
+// const fruits2 = ["jackfruit"];
+// const allFruits = fruits1.concat(fruits2);
+// console.log(allFruits);
+
+// Task-2
+// const numbers = [12, 45, 145, 25, 78, 89, 94];
+// const slice = numbers.slice(2, 6);
+// console.log(slice);
+// console.log(numbers);
+
+// Task-3
+// const sentences = ["word", "word", "word"];
+// const singleSentence = sentences.join(" ");
+// console.log(singleSentence);
+
+// Task-4
+// const fruits = ["mango"];
+// const number = 25;
+// console.log(Array.isArray(fruits));
+// console.log(Array.isArray(number));
+
+// Task-5
