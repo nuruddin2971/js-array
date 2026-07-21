@@ -123,3 +123,71 @@
 
 // console.log("Total result ", total)
 
+// ------------------------------------------------
+
+// Task-1
+// const numbers = [87, 87, 9, 9, 87, 1, 63, 63, 12, 51, 3, 9, 7, 4, 6, 54, 0];
+// const uniqueNumber = [];
+
+// for (let i = 0; i < numbers.length; i++) {
+//   if (uniqueNumber.includes(numbers[i])) {
+//     continue;
+//   }
+//   uniqueNumber.push(numbers[i]);
+// }
+// console.log(uniqueNumber);
+
+// Task-2
+// const fruits = ["mango", "jackfruit", 12, 51];
+// const numbers = [];
+// const strings = [];
+
+// for (let i = 0; i < fruits.length; i++) {
+//   if (typeof fruits[i] === "number") {
+//     numbers.push(fruits[i]);
+//   } else {
+//     strings.push(fruits[i]);
+//   }
+// }
+// console.log(strings);
+// console.log(numbers);
+
+// Task-3
+// const numbers = [87, 54, 1, 2, 9, 12, 63, 41, 7, 51, 3, 5, 7, 4, 6, 8];
+// let largest = numbers[0];
+// let smallest = numbers[0];
+// for (let i = 0; i < numbers.length; i++) {
+//   if (largest < numbers[i]) {
+//     // largest.push(numbers[i]);
+//     largest = numbers[i];
+//   } else if (smallest > numbers[i]) {
+//     smallest = numbers[i];
+//   }
+// }
+// console.log(largest);
+// console.log(smallest);
+
+// eta otirikto advance. 
+// Task-4
+// const arr = [1, [2, 3], [4, [5, 6]]];
+// const arr = [1, [2, 3]];
+// const result = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (Array.isArray(arr[i])) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//       if (Array.isArray(arr[i][j])) {
+//         for (let k = 0; k < arr[i].length; k++) {
+//           result.push(arr[i][j][k]);
+//         }
+//       } else {
+//         result.push(arr[i][j]);
+//       }
+//     }
+//   } else {
+//     result.push(arr[i]);
+//   }
+// }
+// const result1 = arr.flat();
+
+// console.log(result1.flat());
